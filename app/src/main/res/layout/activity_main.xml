@@ -10,24 +10,20 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/Restaurant"
-        android:scaleType="centerCrop"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="false" />
+        android:background="@drawable/restbackground"
+        android:scaleType="centerCrop" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MyRestaurants"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="53dp"
+        android:layout_marginTop="35dp"
         android:id="@+id/textView"
         android:textColor="@color/colorTextIcons"
         android:textSize="40sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="match_parent"
@@ -38,6 +34,8 @@
         android:textColor="@color/colorTextIcons"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
+
+
 
 
 </RelativeLayout>
